@@ -116,8 +116,9 @@ console.log(newRandomNumber);
 console.log(`VyMommy has answered - ${VyMommy}`);
 */
 
-//Race 
-let raceNumber = Math.floor(Math.random() * 1000);
+//Race
+
+/*let raceNumber = Math.floor(Math.random() * 1000);
 let earlyRunner = false;
 let runnerAge = 18;
 if (earlyRunner && runnerAge > 18) {
@@ -131,4 +132,57 @@ if (earlyRunner && runnerAge > 18) {
   console.log(`Your race will begin at 12:30pm - Your number is: ${raceNumber}!`);
 } else {
   console.log('Please check the registration Desk.')
+} */
+
+//FUNCTION
+
+/*function getReminder() {
+  console.log('Water the plants.');
 }
+getReminder();
+
+function greetInSpanish() {
+  console.log('Buenas tardes');
+}
+greetInSpanish();
+
+function sayThanks() {
+  console.log('Thank you for your purchase! We appreciate your business.');
+}
+sayThanks();
+
+function sayThankYou(name) {
+  console.log('Thank you for your patience, ' + name + '! I appreciate you.');
+}
+sayThankYou('Vy');
+
+//
+function makeShoppingList(
+  item1 = 'milk',
+  item2 = 'bread',
+  item3 = 'eggs',
+) {
+  console.log(`Remmember to buy ${item1}.`);
+  console.log(`Remmember to buy ${item2}!`);
+  console.log(`Remmember to buy ${item3}.`);
+}
+makeShoppingList();
+
+//
+function shoppingList(eggs, milk, bread, strawberry) {
+  return eggs + milk + bread + strawberry;
+}
+const itemCount = shoppingList(10, 2, 1, 1);
+console.log(itemCount); */
+
+/*
+function monitorNeed(rows, columns) {
+  return rows * columns;
+}
+function costOfMonitors(rows, columns) {
+  return monitorNeed(rows, columns) * 150;
+}
+const totalCost = costOfMonitors(6, 8);
+console.log(totalCost);
+*/
+
