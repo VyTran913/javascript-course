@@ -1,24 +1,120 @@
 console.log('Hello World');
-/* Date Types:
-underfined, null, boolean (true or false), string ( text), number and object*/
 
-//var myName = 'Vy'  //can be used the whole programme
+let greeting = 'Hello World';
+console.log(greeting.toUpperCase());
 
-//myName = 8
+/*
+let myName = 'Vy';
+let myCity = 'Tokyo';
 
-//let ourName = 'freeCodeCamp'   // only can be used within the scope where declared
+//String Interpolation
 
-//const pi = 3.14  // can never change
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
 
-//var a;  // declare a variable
-//var b = 2;   // declare and assign the value
-//a = 7;
-//b = a;
+//String Concatenation
 
-var sum = 10 + 10;
-console.log(sum);
+console.log('My name is' + ' ' + myName + '.' + ' ' + 'My favorite city is' + ' ' + myCity + '.');
 
-var myVar = 88;
-//myVar = myVar + 1;
-myVar++;
-console.log(myVar);
+/*Typeof Operator
+Using to keep track of the data type in the variables in the programe.
+
+
+let myBirthday = 'November 18';
+console.log(typeof myBirthday);
+myBirthday = 11 - 18;
+console.log(typeof myBirthday);
+let doYouLoveMe = true;
+console.log(typeof doYouLoveMe);
+
+//Exercies
+
+/*
+const kelvin = 293;
+console.log(kelvin);
+const celsius = kelvin - 273;
+console.log(celsius);
+let fahrenheit = celsius * (9 / 5) + 32;
+console.log(fahrenheit);
+fahrenheit = Math.floor(fahrenheit);
+console.log(fahrenheit);
+console.log(`the temperature is ${fahrenheit} degrees Fahrenheit`);
+
+const newKelvin = 300;
+const newCelsius = newKelvin - 270;
+let newton = newCelsius * (33 / 100);
+newton = Math.ceil(newton);
+console.log(newKelvin);
+console.log(newCelsius);
+console.log(`the temperature is ${newton} degrees Newton.`);
+*/
+
+// Exercise for If/ else if.
+
+/*let userName = 'MoonLunar';
+userName ? console.log(`Hello ${userName}!`) : console.log('Hello!');
+const userQuestion = 'Could I get advanced in my career soon ?';
+console.log(`${userName} has asked - ${userQuestion}`);
+let randomNumber = Math.floor(Math.random() * 8);
+let eightBall = '';
+if (randomNumber === 0) {
+  eightBall = ('It is certiain');
+} else if (randomNumber === 1) {
+  eightBall = 'It is decidedly so';
+} else if (randomNumber === 2) {
+  eightBall = 'Reply hazy try again';
+} else if (randomNumber === 3) {
+  eightBall = 'Cannot predict now';
+} else if (randomNumber === 4) {
+  eightBall = 'Do not count on it';
+} else if (randomNumber === 5) {
+  eightBall = 'My sources say no';
+} else if (randomNumber === 6) {
+  eightBall = 'Outlook not so good';
+} else if (randomNumber === 7) {
+  eightBall = 'Signs point to yes';
+}
+
+console.log(randomNumber);
+console.log(`Magic Eight Ball says - ${eightBall}`);
+
+
+// Switch keyword
+
+let askPerson = 'OGbear';
+askPerson ? console.log(`Hello ${askPerson}!`) : console.log('Hello!');
+const askQuestion = ' Will I get stronger by going in to the gym, everyday?'
+console.log(`${askPerson} has asked the question - ${askQuestion}`);
+let newRandomNumber = Math.floor(Math.random() * 8);
+let VyMommy = '';
+switch (newRandomNumber) {
+  case 0:
+    VyMommy = 'Not gonna Happennn';
+    break;
+  case 1:
+    VyMommy = 'Let me think about it';
+    break;
+  case 2:
+    VyMommy = 'Signs point to yes';
+    break;
+  case 3:
+    VyMommy = 'Do not count on it';
+    break;
+  case 4:
+    VyMommy = 'Do not know yet, Try again'
+    break;
+  case 5:
+    VyMommy = 'Need to try harder'
+    break;
+  case 6:
+    VyMommy = 'My sources say no'
+    break;
+  case 7:
+    VyMommy = 'Maybe'
+    break;
+}
+console.log(newRandomNumber);
+console.log(`VyMommy has answered - ${VyMommy}`);
+*/
+
+//Race 
+
