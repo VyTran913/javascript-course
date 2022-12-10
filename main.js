@@ -117,4 +117,18 @@ console.log(`VyMommy has answered - ${VyMommy}`);
 */
 
 //Race 
-
+let raceNumber = Math.floor(Math.random() * 1000);
+let earlyRunner = false;
+let runnerAge = 18;
+if (earlyRunner && runnerAge > 18) {
+  raceNumber += 1000;
+}
+if (earlyRunner && runnerAge > 18) {
+  console.log(`Your race will start at 9:30 am - Your number is: ${raceNumber}!`);
+} else if (!earlyRunner && runnerAge > 18) {
+  console.log(`Your race time will be at 11:00 am - Your number is: ${raceNumber}!`);
+} else if (runnerAge < 18) {
+  console.log(`Your race will begin at 12:30pm - Your number is: ${raceNumber}!`);
+} else {
+  console.log('Please check the registration Desk.')
+}
